@@ -1,2 +1,65 @@
 
 /* css */
+body { min-height: 100vh; }
+
+.head{
+  position: absolute;
+  top:25%;
+  left:35%;
+  height: 600px;
+  width: 500px;
+  background-color: #FFDBAC;
+
+}
+.left_eye {
+  position: absolute;
+  top:25%;
+  left:10%;
+  height: 80px;
+  width: 130px;
+  background-color: white;
+  border-radius: 50%;
+}
+.right_eye {
+  position: absolute;
+  top:25%;
+  right:10%;
+  height: 80px;
+  width: 130px;
+  background-color: white;
+  border-radius: 50%;
+}
+.pupil {
+  position: absolute;
+  top:20%;
+  left:30%;
+  height: 50px;
+  width: 50px;
+  background-color:#1569C7;
+  border-radius: 50%;
+}
+.inside_pupil {
+  position: absolute;
+  top:25%;
+  left:25%;
+  height: 25px;
+  width: 25px;
+  background-color:black;
+  border-radius: 50%;
+}
+.left_eyebrow {
+  position: absolute;
+  top:15%;
+  left:7%;
+  height: 30px;
+  width: 130px;
+  background-color: #654321;
+}
+.right_eyebrow {
+  position: absolute;
+  top:15%;
+  right:7%;
+  height: 30px;
+  width: 130px;
+  background-color: #654321;
+}
