@@ -1,9 +1,29 @@
 
 /* css */
+*{
+  background-color: black;
+}
+h1{
+  color:white;
+}
+href{
+  color:white;
+}
+#wrapper {/* does not work */
+    margin-left:auto;
+    margin-right:auto;
+    width:2000px;
+    resize: none;
+}
 body { min-height: 100vh; }
-
+.person .behind{
+  position: :fixed;
+  opacity: 0;
+  height: 6000px;
+  width: 600px;
+}
 .head{
-  position: fixed;
+  position: absolute;
   top:17%;
   left:35%;
   height: 600px;
@@ -11,7 +31,7 @@ body { min-height: 100vh; }
   background-color: #FFDBAC;
 }
 .first_chin{
-  position: fixed;
+  position: absolute;
   top:90%;
   left:42%;
   height: 55px;
@@ -19,7 +39,7 @@ body { min-height: 100vh; }
   background-color: #FFDBAC;
 }
 .second_chin{
-  position: fixed;
+  position: absolute;
   top:90%;
   left:46%;
   height: 80px;
@@ -27,7 +47,7 @@ body { min-height: 100vh; }
   background-color: #FFDBAC;
 }
 .first_forehead{
-  position: fixed;
+  position: absolute;
   top:10%;
   left:42%;
   height: 100px;
@@ -35,15 +55,15 @@ body { min-height: 100vh; }
   background-color: #FFDBAC;
 }
 .hair_top{
-  position: fixed;
-  top:5%;
+  position: absolute;
+  top:2%;
   left:42%;
-  height: 50px;
+  height: 75px;
   width: 300px;
   background-color: #fbe7a1;
 }
 .hair_sq_left{
-  position: fixed;
+  position: absolute;
   top:5%;
   left:35.5%;
   height: 100px;
@@ -51,7 +71,7 @@ body { min-height: 100vh; }
   background-color: #fbe7a1;
 }
 .hair_sq_right{
-  position: fixed;
+  position: absolute;
   top:5%;
   right:31%;
   height: 101px;
@@ -60,7 +80,7 @@ body { min-height: 100vh; }
 }
 .hair_ear_left{
   transform: rotate(90deg);
-  position: fixed;
+  position: absolute;
   top:25%;
   left:25%;
   height: 70px;
@@ -69,7 +89,7 @@ body { min-height: 100vh; }
 }
 .hair_ear_left2{
   transform: rotate(90deg);
-  position: fixed;
+  position: absolute;
   top:25%;
   left:21%;
   height: 70px;
@@ -78,7 +98,7 @@ body { min-height: 100vh; }
 }
 .hair_ear_right{
   transform: rotate(90deg);
-  position: fixed;
+  position: absolute;
   top:25%;
   right:20%;
   height: 70px;
@@ -87,25 +107,44 @@ body { min-height: 100vh; }
 }
 .hair_ear_right2{
   transform: rotate(90deg);
-  position: fixed;
+  position: absolute;
   top:25%;
   right:16%;
   height: 70px;
   width: 300px;
   background-color: #fbe7a1;
 }
+.hair_down_right{
+  transform: rotate(90deg);
+  position: absolute;
+  top:70%;
+  right:-2%;
+  height: 70px;
+  width: 800px;
+  background-color: #fbe7a1;
+}
+.hair_down_left{
+  transform: rotate(90deg);
+  position: absolute;
+  top:70%;
+  left:3.5%;
+  height: 70px;
+  width: 800px;
+  background-color: #fbe7a1;
+}
 .left_ear {
   transform: rotate(90deg);
-  position: fixed;
+  position: absolute;
   top:50%;
   left:28%;
   height: 70px;
   width: 140px;
   background-color: #FFDBAC;
+  resize: none;
 }
 .right_ear {
   transform: rotate(90deg);
-  position: fixed;
+  position: absolute;
   top:50%;
   right:23%;
   height: 70px;
