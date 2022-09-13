@@ -72,11 +72,50 @@ body { min-height: 100vh; }
   background-color: #F1C27D;
 }
 .nostril {
-
   position: absolute;
   top:60%;
   left:40%;
   height: 40px;
   width: 100px;
   background-color: #F1C27D;
+}
+.top_lip{
+  position: absolute;
+  top:75%;
+  left:35%;
+  height: 25px;
+  width: 150px;
+  background-color: #d65b5b;
+}
+.square_lip_left{
+  position: absolute;
+  top:79%;
+  left:30%;
+  height: 25px;
+  width: 25px;
+  background-color: #d65b5b;
+}
+.square_lip_right{
+  position: absolute;
+  top:79%;
+  right:30%;
+  height: 25px;
+  width: 25px;
+  background-color: #d65b5b;
+}
+.bottom_lip{
+  position: absolute;
+  top:83%;
+  left:35%;
+  height: 25px;
+  width: 150px;
+  background-color: #d65b5b;
+}
+.teeth{
+  position: absolute;
+  top:79%;
+  left:35%;
+  height: 25px;
+  width: 150px;
+  background-color: white;
 }
