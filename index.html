@@ -16,19 +16,19 @@
   <div id="head">
     <div id ="nose"></div>
     <div id ="nostril"></div>
-    <div id ="top_lip"></div>
-    <div id ="bottom_lip"></div>
-    <div id ="square_lip_left"></div>
-    <div id="square_lip_right"></div>
-    <div id ="teeth"></div>
-    <div id="left_eyebrow"></div>
-    <div id="right_eyebrow"></div>
-    <div id="left_eye">
+    <div class="mouth_rectangle"id ="top_lip"></div>
+    <div class="mouth_rectangle" id ="bottom_lip"></div>
+    <div class="mouth_square"id ="square_lip_left"></div>
+    <div class="mouth_square"id="square_lip_right"></div>
+    <div class="mouth_rectangle"id ="teeth"></div>
+    <div class="eyebrow" id="left_eyebrow"></div>
+    <div class="eyebrow" id="right_eyebrow"></div>
+    <div class="eye" id="left_eye">
       <div id="pupil">
         <div id="inside_pupil"></div>
       </div>
     </div>
-    <div id="right_eye">
+    <div class="eye" id="right_eye">
       <div id="pupil">
         <div id="inside_pupil"></div>
       </div>
@@ -37,42 +37,19 @@
   <div id="first_chin"></div>
   <div id="second_chin"></div>
   <div id="first_forehead"></div>
-  <div id="left_ear"></div>
-  <div id="right_ear"></div>
+  <div class="ear" id="left_ear"></div>
+  <div class="ear" id="right_ear"></div>
   <div id="hair_top"></div>
-  <div id="hair_sq_left"></div>
-  <div id="hair_sq_right"></div>
-  <div id="hair_ear_left"></div>
-  <div id="hair_ear_right"></div>
-  <div id="hair_ear_left2"></div>
-  <div id="hair_ear_right2"></div>
-  <div id="hair_down_left"></div>
-  <div id="hair_down_right"></div>
+  <div class="hair_square" id="hair_sq_left"></div>
+  <div class="hair_square" id="hair_sq_right"></div>
+  <div class="hair_ear" id="hair_ear_left"></div>
+  <div class="hair_ear" id="hair_ear_right"></div>
+  <div class="hair_ear" id="hair_ear_left2"></div>
+  <div class="hair_ear" id="hair_ear_right2"></div>
+  <div class="hair_down" id="hair_down_left"></div>
+  <div class="hair_down" id="hair_down_right"></div>
 </div>
 
-<script src="assets/js/main.js">
-//does not work
-var num = document.querySelectorAll('#id *').length;
-console.log(num);
-
-//HOW TO DO
-  // document.addEventListener("mousemove", () => {
-  //   let mousex = event.clientX; // Gets Mouse X
-  //   let mousey = event.clientY; // Gets Mouse Y
-  //   console.log([mousex, mousey]); // Prints data
-  // });
-
-  // function coordinate(event) {
-  //
-  //   // clientX gives horizontal coordinate
-  //   var x = event.clientX;
-  //
-  //   // clientY gives vertical coordinates
-  //   var y = event.clientY;
-  //   document.getElementById("X").value = x;
-  //   document.getElementById("Y").value = y;
-  //   console.log([x, y]);
- }
-</script>
+<script src="assets/js/main.js"></script>
 </body>
 </html>
