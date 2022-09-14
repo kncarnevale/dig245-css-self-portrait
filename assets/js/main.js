@@ -23,9 +23,8 @@ var num = document.querySelectorAll('div').length;
 console.log('Total Number of HTML Elements: ' +num);
 
 //when move mouse, get coordinates
-  // document.addEventListener("mousemove", () => {
-  //   let mousex = event.clientX; // Gets Mouse X
-  //   let mousey = event.clientY; // Gets Mouse Y
-  //   console.log([mousex, mousey]); // Prints data
-  // });
-//commented out because when you run, there are way too many coordinates
+  document.addEventListener("mousemove", () => {
+    let mousex = event.clientX; // Gets Mouse X
+    let mousey = event.clientY; // Gets Mouse Y
+    console.log([mousex, mousey]); // Prints data
+  });
